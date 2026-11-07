@@ -1,0 +1,37 @@
+# 运行产物
+logs/
+downloads/
+*.log
+*.part
+*.mp4
+*.mkv
+*.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包
+build/
+dist/
+*.spec
+
+# 开发期临时产物（scratch 里的脚本要保留，产物不要）
+scratch/dl_test/
+scratch/dl_remote/
+scratch/probe_dl/
+scratch/*.json
+scratch/enc_diag.txt
+scratch/rec_frame*.png
+scratch/recorded_frame.png
+scratch/hls_test.mp4
+
+# 编辑器
+.vscode/
+.idea/
+
+# uiautomation 运行产物
+@AutomationLog.txt

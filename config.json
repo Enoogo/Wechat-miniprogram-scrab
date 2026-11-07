@@ -1,0 +1,36 @@
+{
+  "_说明": [
+    "本文件是默认值配置。改完保存后重启程序生效。",
+    "channels: 探测通道默认是否勾选（true/false）。",
+    "numbers: 数值默认值；cdp_port 留空表示不指定端口。",
+    "gui: 界面默认值；out_dir 留空表示用程序目录下的 downloads/。",
+    "界面上临时改的勾选/数值只对当前这次运行有效，不会写回本文件。"
+  ],
+  "channels": {
+    "memory": false,
+    "cache_files": false,
+    "cache_urls": true,
+    "cdp": false,
+    "images": false
+  },
+  "numbers": {
+    "scan_budget_mb": 900,
+    "concurrency": 3,
+    "cdp_port": "",
+    "cache_url_budget_mb": 512,
+    "cache_url_file_mb": 64,
+    "min_local_mb": 0.08,
+    "min_image_kb": 24,
+    "http_timeout": 30.0,
+    "http_retries": 3,
+    "local_wait_seconds": 8.0,
+    "hls_expand_masters": true,
+    "native_hls": true
+  },
+  "gui": {
+    "out_dir": "",
+    "log_level": "DEBUG",
+    "autoscroll": true,
+    "show_all_windows": false
+  }
+}
